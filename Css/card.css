@@ -1,0 +1,86 @@
+*{
+    background-color: #f0f0f0;
+  }
+  
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+.card {
+    width: 300px;
+    height: 280px;
+    padding: 0;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex: 3;
+  }
+  
+  .card * {
+    transition: 0.3s ease all;
+  }
+  
+  .card img {
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .card .focus-content {
+    display: block;
+    padding: 8px 12px;
+  }
+  
+  .card p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .card:hover img, .card:focus-within img {
+    margin-top: -80px;
+  }
+  
+  .card:hover h3, .card:focus-within h3 {
+    padding: 8px 12px 0;
+  }
+
+  button {
+    background-color: rgb(76, 175, 80);
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  button:active {
+    background-color: rgb(15, 83, 18);
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  dotlottie-player{
+    margin: 0 auto;
+    padding: 0;
+    width: 40px; 
+    height: 40px;
+  }
+
