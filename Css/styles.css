@@ -62,11 +62,7 @@ article{
     border-radius: 10px;
     border-radius: 1rem;
 }
-p:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
 
-}
 article a{
     text-decoration: solid;
 }
