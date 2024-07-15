@@ -5,7 +5,7 @@
 .products{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 320px;
     margin: 0 auto;
 }
 .card {
@@ -17,7 +17,6 @@
     border-radius: 8px;
     box-sizing: border-box;
     overflow: hidden;
-    flex: 3;
   }
   
   .card * {
@@ -90,3 +89,12 @@
 
 }
 
+@media only screen and (min-width: 768px) {
+  .card{
+    flex:1;
+  }
+
+  .products{
+    width: 1000px;
+  }
+}
