@@ -23,15 +23,16 @@
 
 
 .Container button {
-	background-color: rgb(76, 175, 80);
+	background-color: 	rgb(163, 145, 112);
     border-radius: 5px;
     border: none;
     padding: 0.5rem;
 	margin: 1rem;
+	color: white;
 }
 
 .Container button:active {
-	background-color: rgb(15, 83, 18);
+	background-color: rgb(103, 91, 70);
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -41,4 +42,10 @@
         flex:1;
         text-align: left;
     }
+	.Container article{
+		text-align: center;
+	}
+	.Container button{
+		margin: 1rem;
+	}
 }
