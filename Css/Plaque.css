@@ -1,9 +1,7 @@
 .Container {
 	border: 0;
-	border-radius:15px;
 	padding: 20px 40px 40px;
 	max-width: auto;
-	background-color: rgb(255, 255, 255);
     margin: 30px;
     text-align: center;
 }
@@ -22,6 +20,18 @@
 	display: inline-block;
 	width: 50%;
  }
+
+
+.Container button {
+	background-color: rgb(76, 175, 80);
+    border-radius: 5px;
+    border: none;
+    padding: .5rem;
+}
+
+.Container button:active {
+	background-color: rgb(15, 83, 18);
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
