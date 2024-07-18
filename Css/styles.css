@@ -45,23 +45,6 @@ a:hover{
     color: rgb(0, 0, 255);
 }
 
-section{
-    display: flex;
-}
-
-article{
-    flex: 1;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border-radius: 1rem;
-}
-
-article a{
-    text-decoration: solid;
-}
-
 
 
 footer{

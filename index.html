@@ -6,9 +6,12 @@
     <title>Lucky Shrub</title>
     <link rel="stylesheet" href="Css/styles.css">
     <link rel="stylesheet" href="Css/Footer.css">
+    <link rel="stylesheet" href="Css/Alert.css">
+    <link rel="stylesheet" href="Css/Plaque.css">
 
 </head>
 <body>
+    <!-- Header -->
     <header>
         <img src="/Logos/Asset 2@3x.png" alt="Lucky Shrub Logo">
     </header>
@@ -29,25 +32,35 @@
     </nav>
     <!--Main Content-->
     <main>
-        <section>
-            <article style="background-image:url('/Images/hero\ plants.jpeg'); background-size:cover;">
-                <h1 style="text-align:center; font-size:2rem">Get points towards your next purchse when you spend $75 or more.</h1>
-            </article>
-        </section>
-        <section>
-            <article>
-                <h2>Indoor/Outdoor Plants</h2>
-                <img src="/Images/indoor-Plants.jpg" alt="Indoor plants" style="width:500px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="plants.html">Find out more about our selection of plants</a>
-            </article>
-            <article>
-                <h2>Designs</h2>
-                <img src="/Images/Garden architecture.jpg" alt="Outdoor Gardens" style="width:550px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. id est laborum. laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. laboris nisi ut aliquip ex ea commodo</p>
-                <a href="Designs.html">Have us design your home</a>
-            </article>
-        </section>
+
+         <!-- Sale Alerts -->
+         <div style="width: auto; margin: 0 auto; text-align:center;">
+              <div class="alert info">
+                  <input type="checkbox" id="alert1"/>
+              <label class="close" title="close" for="alert1">
+                <i class="icon-remove"></i>
+              </label>
+                  <p class="inner">
+                      <strong>50 off Sale!</strong> Get 50% Off your next purchase when you buy $75 or more worth of plants.
+                  </p>
+              </div>
+            </div>
+
+          <!--Plants-->
+
+
+          <!--Designs-->
+          <div class="Container">
+            <img class="Container__image" src="/Images/garden_studio_480x480.jpg">
+            <div class="Container__text">
+                <h2>Our Most Recent Work!</h2>
+                <p>Flora Harmony has transformed a suburban house into a stunning natural retreat. The garden features a lavender-lined pathway leading to a cozy seating area, a soothing pond with a waterfall, and a vibrant array of native plants. A vegetable patch with raised beds offers fresh produce year-round.</p> 
+                <br>
+                <p>Sustainability is key, with an efficient irrigation system, eco-friendly materials, and solar-powered garden lights. This thoughtful design enhances the home's beauty and provides a peaceful sanctuary for the homeowners.</p>
+            </div>
+        </div>
+
+
     </main>
     <!--Footer-->
  <footer class="footer">
@@ -59,6 +72,7 @@
             <div class="footer-col">
                 <h4>company</h4>
                 <ul>
+                    <li><a href="#">Contact Us</a></li>
                     <li><a href="#">our services</a></li>
                     <li><a href="#">privacy policy</a></li>
                     <li><a href="#">affiliate program</a></li>
