@@ -8,16 +8,6 @@ body {
   background-repeat: initial initial;
 }
 
-h1 {
-  font-family: "Lobster";
-  font-size: 32pt;
-  color: rgb(255, 153, 0);
-  text-shadow: 0px 2px 3px rgb(255, 238, 204);
-  text-align: center;
-  padding: 6px 0px 0px 0px;
-  margin: 6px 0px 0px 0px;
-}
-
 .alert .inner {
   display: block;
   padding: 6px;

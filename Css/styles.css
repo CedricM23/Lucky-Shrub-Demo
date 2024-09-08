@@ -5,12 +5,15 @@ body{
 
 h1{
     font-size: 3rem;
+    text-align: center;
     color: #384E1D;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
     color: 	rgb(163, 145, 112);
+    margin: 30px;
 }
 
 
